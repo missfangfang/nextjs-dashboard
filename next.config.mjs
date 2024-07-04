@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-    // Remove experimental feature to deploy successfully on Vercel
+    // Option 1: Remove experimental feature to deploy successfully on Vercel
+    // Option 2: Use `npm install next@canary`
     // experimental: {
     //     ppr: 'incremental',
     // },
