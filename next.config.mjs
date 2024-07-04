@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-    experimental: {
-        ppr: 'incremental',
-    },
+    // Remove experimental feature to deploy successfully on Vercel
+    // experimental: {
+    //     ppr: 'incremental',
+    // },
 };
 
 export default nextConfig;
